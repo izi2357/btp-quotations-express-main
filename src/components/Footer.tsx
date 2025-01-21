@@ -40,4 +40,19 @@ const Footer = () => {
               <Link to="/services" className="block hover:text-accent transition-colors">
                 Services
               </Link>
-              <Link to="/devis" 
+              <Link to="/devis" className="block hover:text-accent transition-colors">
+                Demander un devis
+              </Link>
+            </div>
+          </div>
+        </div>
+        
+        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+          <p>&copy; 2025 BTP Expert. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
